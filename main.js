@@ -4,12 +4,18 @@
  * lincinced under Eclipse Public License - v 1.0 more info can be found in the LINCINCE file.
  * GitHub repo: https://github.com/MuffinKingStudios/avacrypt
  */
+ 
+/**Todo
+ * Increase pi length
+ * Optimize type section
+ * Add more HTML features
+ * Add floating point function
+ */
 
 //Define the main object
 var $_ = function(obj) {
-    if (obj instanceof $_) return obj;
     if (!(this instanceof $_)) return new $_(obj);
-    this._wrapped = obj;
+    return obj;
 };
 
 
@@ -18,8 +24,7 @@ $_.version = "0.1.3";
 
 
 /******************** Variable Defenitions ********************/
-
-
+var pi = 3.141592653589 
 /******************** Math Functions ********************/
 $_.average = function() {
     var num = 0;
