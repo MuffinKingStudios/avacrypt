@@ -1,2 +1,2 @@
 # avacrypt
-AvaCrypt is an open-source toolbelt JavaScript library. It is designed to create any functions people would like and declare them under a parent object `$_`
+AvaCrypt is an open-source toolbelt JavaScript library. It is designed to create any functions people would like and declare them under a parent object `$_` The functions are split into the current sections `math`, `html`, `cookies`, and `type`. Feel free to make changes on a pull, and create new sections entirely. I read through the pulls every week and will selcect the functions I feel best fit current needs of JavaScript programmers.
